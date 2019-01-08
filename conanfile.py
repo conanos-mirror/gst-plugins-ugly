@@ -34,7 +34,7 @@ class GstpluginsuglyConan(ConanFile):
         self.requires.add("gstreamer/1.14.4@conanos/stable")
         self.requires.add("gst-plugins-base/1.14.4@conanos/stable")
         self.requires.add("a52dec/0.7.4@conanos/stable")
-        self.requires.add("x264/0.157.r2935@conanos/stable")
+        self.requires.add("x264/0.152.r2854@conanos/stable")
         self.requires.add("orc/0.4.28@conanos/stable")
 
     def build_requirements(self):
